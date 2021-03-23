@@ -1,0 +1,26 @@
+function carregar(){
+    var msg = window.document.getElementById("msg")// faz a ligação com a div#msg
+    var img = window.document.getElementById("imagem")//faz a ligação com a div#foto
+    var data = new Date()
+    var hora = data.getHours()
+    msg.innerHTML="Agora são " + hora + " horas."
+    
+    if(hora >= 0 && hora < 12){
+        //bom dia
+        
+        img.src = 'manha.png'
+        document.body.style.background = "#f79d92"
+    }else if(hora >= 12 && hora <= 18){
+        //boa tarde
+
+        img.src = 'tarde.png'
+        document.body.style.background = "#efbd71"
+    }else {
+        //boa noite
+        
+        img.src = 'noite.png'
+        document.body.style.background = "#0e4075"
+    }
+  
+
+}
