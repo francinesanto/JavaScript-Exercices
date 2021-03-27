@@ -1,0 +1,47 @@
+body {
+  font-family: 'Roboto Mono',monospace;
+  min-height: 600px;
+  background-image: url(img/slot-machine-da-caça-níqueis-kitsch-retro-do-vintage-ilustração-vetor-pop-art-139688562.jpg);
+  background-color: #000000;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: left;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color:rgb(64,196,255);
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: rgb(64,196,255);
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right:10px;
+}
+
+#input{
+  position: relative;
+  display: flex;
+  
+}
+@media (max-height: 500px) {
+  body {
+    min-height:800px;
+  }
+}

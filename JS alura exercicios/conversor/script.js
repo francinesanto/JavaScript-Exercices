@@ -13,5 +13,5 @@ function converter(){
     var valorEmDolarNumber = parseFloat(valorEmDolar.value)
     var taxa = 5.50
     var valorEmReal= valorEmDolarNumber * taxa
-    res.innerHTML =' O valor em real é ' + valorEmReal.toFixed(2)
+    res.innerHTML =' O valor em real é R$ ' + valorEmReal.toFixed(2)
 }
